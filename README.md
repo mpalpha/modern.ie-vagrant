@@ -18,19 +18,19 @@ $ FIRSTBOOT=1 vagrant up --provision
 ```
 
 * Launch Vagrant with the `VM` environment variable.
-- 0: windows xp ie6
-- 1: windows xp ie8
-- 2: windows vista ie7
-- 3: windows 7 ie8
-- 4: windows 7 ie9
-- 5: windows 7 ie10
-- 6: windows 7 ie11 <default>
-- 7: windows 8 ie10
-- 8: windows 8.1 ie11
-- 9: windows 10 msedge
+ * 0: Windows XP IE6
+ * 1: Windows XP IE8
+ * 2: Windows Vista IE7
+ * 3: Windows 7 IE8
+ * 4: Windows 7 IE9
+ * 5: Windows 7 IE10
+ * 6: Windows 7 IE11 <default>
+ * 7: Windows 8 IE10
+ * 8: Windows 8.1 IE11
+ * 9: Windows 10 MS Edge
 
 ```bash
-$ VM=1 vagrant up --provision
+$ FIRSTBOOT=1 VM=1 vagrant up --provision
 ```
 
 * Execute `scripts/RunFirstBoot.bat` as Administrator
@@ -38,4 +38,3 @@ $ VM=1 vagrant up --provision
 The next boot can be done without the `FIRSTBOOT` environment variable.
    
 That's it!
-   
