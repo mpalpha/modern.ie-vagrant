@@ -18,16 +18,16 @@ $ FIRSTBOOT=1 vagrant up --provision
 ```
 
 * Launch Vagrant with the `VM` environment variable.
- * 0: Windows XP IE6
- * 1: Windows XP IE8
- * 2: Windows Vista IE7
- * 3: Windows 7 IE8
- * 4: Windows 7 IE9
- * 5: Windows 7 IE10
- * 6: Windows 7 IE11 <default>
- * 7: Windows 8 IE10
- * 8: Windows 8.1 IE11
- * 9: Windows 10 MS Edge
+   * 0: Windows XP IE6
+   * 1: Windows XP IE8
+   * 2: Windows Vista IE7
+   * 3: Windows 7 IE8
+   * 4: Windows 7 IE9
+   * 5: Windows 7 IE10
+   * 6: Windows 7 IE11 <default>
+   * 7: Windows 8 IE10
+   * 8: Windows 8.1 IE11
+   * 9: Windows 10 MS Edge
 
 ```bash
 $ FIRSTBOOT=1 VM=1 vagrant up --provision
